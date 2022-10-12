@@ -77,3 +77,8 @@ function renderProtfolioModals(){
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gfBHECMdJvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `)
 }
+
+function onInfContact(){
+    $('.inf').show()
+    setTimeout(()=> $('.inf').hide(),4000)
+}

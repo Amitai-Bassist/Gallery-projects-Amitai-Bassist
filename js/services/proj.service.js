@@ -4,9 +4,9 @@ var gProjs = [
     {
         id: "mines", 
         name: "Mines-game", 
-        title: "Better push those boxes", 
+        title: "board game project", 
         desc: "lorem ipsum lorem ipsum lorem ipsum", 
-        url: "projs/sokoban", 
+        url: "https://amitai-bassist.github.io/Mine-Sweeper/", 
         publishedAt: 1448693940000, 
         labels: ["Matrixes", "keyboard events"],
     },
@@ -17,14 +17,14 @@ var gProjs = [
         desc: `The goals of the hackathon are to reach zero murdered women per year.
         The app we built helps create safe places and directs women in distress to them
         As a team leader, I came up with the idea, recruited a team of developers, ux/ui and more and managed the abbreviated development for about a week+`, 
-        url: "projs/sokoban", 
+        url: "https://dl.dropboxusercontent.com/s/z3gqb1citqcft03/safearea-release.apk", 
         publishedAt: 1448693940000, 
         labels: ["Matrixes", "keyboard events"],
     },
     {
         id: "Books-Shop", 
         name: "Books-Shop", 
-        title: "Better push those boxes", 
+        title: "mvc project", 
         desc: '', 
         url: "projs/sokoban", 
         publishedAt: 1448693940000, 
@@ -33,7 +33,7 @@ var gProjs = [
     {
         id: "collect-balls", 
         name: "collect-balls", 
-        title: "Better push those boxes", 
+        title: "board game project", 
         desc: "lorem ipsum lorem ipsum lorem ipsum", 
         url: "projs/sokoban", 
         publishedAt: 1448693940000, 
@@ -51,7 +51,7 @@ var gProjs = [
     {
         id: "Todos", 
         name: "Todos", 
-        title: "Better push those boxes", 
+        title: "list of todos", 
         desc: "lorem ipsum lorem ipsum lorem ipsum", 
         url: "projs/sokoban", 
         publishedAt: 1448693940000, 

@@ -775,3 +775,8 @@ fieldset[disabled] .btn-xl:hover {
     width: 5px;
     height: 5px;
 }
+
+.masage-body{
+    height: 15vh;
+    
+}
