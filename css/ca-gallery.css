@@ -767,3 +767,8 @@ fieldset[disabled] .btn-xl:hover {
     padding-right: 0;
     padding-left: 0;
 }
+
+.cv-icon{
+    width: 5px;
+    height: 5px;
+}
