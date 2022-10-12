@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="onInit(12345)">
+    <section>
+        <h1>Welcome to my bookshop!</h1>
+        <button onclick="onChangeMode('cards')" class="present cards"><img src="images/app.jpg" alt=""></button>
+        <button onclick="onChangeMode('table')" class="present table selected"><img src="images/list.jpg" alt=""></button><br>
+        <button onclick="onAddBook()">create new book</button><br>
+        filter books by-
+        <select class="filter-by" onchange="onSetFilter(this.value)">
+            <option value="price">max price</option>
+            <option value="min-rate">minimum rate</option>
+            <option value="">text search</option>
+        </select>
+        <input class="text-filter" type="text" oninput="onSetFilterByTxt(this.value)" placeholder="Type a number...">
+        <br> sort books by-
+        <select class="sort-books" onchange="onSetSortBy()">
+            <option value="price">Books price</option>
+            <option value="name">Books name</option>  
+        </select>
+        <label>
+            Descending
+            <input class="sort-desc" type="checkbox" oninput="onSetSortBy()" />
+        </label>
+        <section class="books-for-shop"></section>
+        <table style="display:none ;">
+            <thead>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <h4>page <span class="page-num">1</span></h4>
+        <div class="paging">
+            <button onclick="onChangePage('prev')">⏪previous page</button>
+            <button class="first" onclick="onChangePage('0')" disabled>1</button>
+            <button class="second" onclick="onChangePage('1')">2</button>
+            <button class="third" onclick="onChangePage('2')">3</button>
+            <button onclick="onChangePage('next')">Next Page⏩</button>
+        </div>
+    </section>
+    <section class="modal">
+        <div class="modal-content">
+          <span onclick="closeModal()" class="close">&times;</span>
+          <h2 class="books-name"></h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae maiores ex autem aspernatur voluptatum corporis inventore, tenetur a omnis error temporibus eius doloremque iusto harum architecto excepturi ratione dolores ipsum.</p>
+          <span class="book-img"></span>
+          <div class="book-rate">
+              
+          </div>
+        </div>
+    </section>
+    <script src="js/util.js"></script>
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/services/book.service.js"></script>
+    <script src="js/book.controller.js"></script>
+</body>
+</html>
