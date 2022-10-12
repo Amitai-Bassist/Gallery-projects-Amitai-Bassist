@@ -30,10 +30,18 @@
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
   <aside class="offcanvas-aside">
-    <a href="./projects/touchTheNums/index.html"></a>
     <!-- Contact -->
     <section>
       <h4>Contact Me</h4>
+      <form class="connect-me" >
+        <h4>Your E-mail</h4>
+        <input type="text" name="userMail" placeholder="name@example.com" />
+        <h4>Subject</h4>
+        <input type="text" name="subject" placeholder="Type subject here" />
+        <h4>Massage Body</h4>
+        <input type="text" name="message-body" placeholder="Type message text here" />
+        <br><button type="button" class="submit-contact">submit</button>
+    </form>
     </section>
 
   </aside>
@@ -89,12 +97,12 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-solid fa-code fa-stack-1x fa-inverse"></i>
+            <i class="fa-solid fa-file-code"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex
-            magni, dicta impedit.</p>
+          <h4 class="service-heading">Programming languages</h4>
+          <p class="text-muted">Python<br>JavaScript<br>css<br>html
+          </p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -109,12 +117,13 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex
-            magni, dicta impedit.</p>
+          <h4 class="service-heading">achievement</h4>
+          <p class="text-muted">Graduate University of Haifa- BA, Political Science.
+            <br>Completed IDF naval officer's course; recognized as outstanding cadet <br>
+            Honorably discharged at the rank of Naval Lieutenant (NATO OF-2).
+          </p>
         </div>
       </div>
     </div>
@@ -213,24 +222,7 @@
   </footer>
 
   <!-- Portfolio Modals -->
-  <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-  </div>
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-  </div>
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-  </div>
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-  </div>
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-  </div>
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-  </div>
+  <section class="modals"></section>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

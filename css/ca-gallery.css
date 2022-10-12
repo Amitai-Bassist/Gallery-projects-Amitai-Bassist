@@ -109,8 +109,8 @@ body {
         margin-right: 30vw;
     }
     .offcanvas-aside {
-        width: 30vw;
-        right: -30vw;
+        width: 35vw;
+        right: -35vw;
     }
 }
 .offcanvas-aside-open {
@@ -190,7 +190,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/coding-job.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -242,6 +242,9 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+.img-fluid{
+    height: 300px;
 }
 
 #portfolio .portfolio-item {
